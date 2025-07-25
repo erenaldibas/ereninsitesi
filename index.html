@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eren Aldıbaş | Kişisel Web Sitesi</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        header {
+            background-color: #2e3a59;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 30px;
+            background-color: white;
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+        }
+
+        .profile-img {
+            width: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 10px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+        }
+
+        .flag {
+            width: 24px;
+            height: auto;
+            margin-right: 8px;
+            vertical-align: middle;
+            border-radius: 3px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #2e3a59;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#about">👨‍💻Hakkımda</a>
+            <a href="#education">🎓Eğitim</a>
+            <a href="#hobbies">🎮Hobilerim</a>
+            <a href="#countries">✈️Gittiğim Ülkeler</a>      
+            <a href="#skills-section">🧠Yeteneklerim</a>
+             <a href="#documents">📑Belgelerim</a>  
+            <a href="#contact">📞İletişim</a>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>👨‍💻Hakkımda</h2>
+        <img src="images/WhatsApp Image 2025-07-24 at 15.53.18.jpeg" alt="Cemal Eren Aldıbaş" class="profile-img">
+        <p>Merhaba! Ben <strong>Cemal Eren Aldıbaş</strong>. <strong>İstanbul'da</strong> yaşıyorum ve Nişantaşı Üniversitesi Bilgisayar Mühendisliği
+            öğrencisiyim. Teknolojiye olan ilgim küçük yaşlarda başladı ve özellikle <strong>web geliştirme</strong> ve 
+            <strong>siber güvenlik</strong> konularına yoğunlaştım.
+        </p>
+        <p>Şu anda <strong>HTML, CSS</strong> gibi teknolojilerde kendi projelerimi geliştirerek bu alandaki
+            yeteneklerimi geliştiriyorum. Aynı zamanda <strong>Kali Linux</strong> ile siber güvenlik üzerine çalışmalar
+            yapıyor, CTF tarzı uygulamalarla kendimi geliştiriyorum. Üniversite eğitimimin yanı sıra İstanbul büyükşehir
+            belediyesinin (İSMEK) <strong>siber güvenlik</strong> ve <strong>web programlama</strong> kurslarını alıyorum</p>
+        <p><strong>Badminton</strong> sporunu ve geleceğin sporu olan <strong> hado</strong> oynamayı seviyorum ve bu
+            dallarda çeşitli turnuvalar kazandım. Müzik de hayatımın önemli bir parçası. <strong>Keman</strong> çalıyorum ve kendimi bu
+            alanda da geliştirmeye devam ediyorum. Ayrıca <strong>yurt dışına çıkmayı</strong> ve <strong>yabancı kültürleri yakından tanımayı</strong>
+            çok severim!</p>
+        <p>İleride hem <strong>yazılım</strong> hem de <strong>siber güvenlik</strong> alanında çalışmayı ve kendimi sürekli geliştirerek başarılı bir
+            mühendis olmayı hedefliyorum.</p>
+    </section>
+    <section id="education">
+        <h2>🎓Eğitim</h2>
+        <ul>
+            <li><a href="https://www.nisantasi.edu.tr/inde.php" target="_blank">Üniversite: Nişantaşı Üniversitesi -
+                    Bilgisayar
+                    Mühendisliği</a></li>
+            <li><a href="https://scufen.meb.k12.tr/" target="_blank">Lise: Sabahat-Cemil Ulupınar Fen Lisesi </a> </li>
+            <li><a href="https://devrekgaziortaokulu.meb.k12.tr/" target="_blank">Ortaokul: Gazi Ortaokulu</a></li>
+            <li><a href="https://devrekistiklal.meb.k12.tr/" target="_blank">İlkokul: İstiklal İlkokulu</a></li>
+        </ul>
+    </section>
+    <section id="hobbies">
+        <h2>🎮Hobilerim</h2>
+        <p>Badminton oynamayı, keman çalmayı ve seyahat etmeyi severim. Aynı zamanda HTML, CSS ve siber güvenlik alanlarında çalışıyorum.</p>
+    </section>
+    <section id="countries">
+        <h2>✈️Gittiğim Ülkeler</h2>
+        <p>Gezmeyi çok seviyorum! Farklı kültürler tanımak, yeni şehirler görmek benim için büyük tutku.</p>
+        <p> İşte gittiğim ülkeler:</p>
+        <ul class="country-list">
+            <li><img src="images/tr.jpg" alt="Türk" class="flag">Türkiye - İstanbul</li>
+            <li><img src="images/hun.jpg" alt="Hun" class="flag">Macaristan - Budapeşte, Székesfehérvár (Erasmus+ ile)</li>
+            <li><img src="images/gre.jpg" alt="Gre" class="flag">Yunanistan - Atina, Selanik</li>
+            <li><img src="images/den.jpg" alt="Den" class="flag">Danimarka - Kopenhag</li>
+            <li><img src="images/swe.jpg" alt="Swe" class="flag">İsveç - Malmö</li>
+            <li><img src="images/ita.jpg" alt="Ita" class="flag">İtalya - Roma</li>
+            <li><img src="images/vat.png" alt="Vat" class="flag">Vatikan - Vatican City</li>
+            <li><img src="images/aze.jpg" alt="Aze" class="flag">Azerbaycan - Bakü</li>
+        </ul>
+    </section>
+    <section class="skills-section">
+        <h2>🧠 Yeteneklerim</h2>
+        <ul class="skills-list">
+            <li>💻 HTML</li>
+            <li>🎨 CSS</li>
+            <li>🔒 Siber Güvenlik</li>
+            <li>🕵️ Kali Linux</li>
+            <li>✈️ Seyahat Planlama</li>
+            <li>🎻 Keman Çalmak</li>
+            <li>🏸 Badminton (🏅3 Madalya)</li>
+            <li>💥 Hado Geleceğin Sporu (🥇Şampiyonluk)</li>
+        </ul>
+    </section>
+    <section id="documents">
+        <h2>📑Belgelerim</h2>
+        <p>İşte şimdiye kadar aldığım belgeler: </p>
+        <ul>
+
+            <li><a href="documents/ingilizce.pdf" target="_blank"> 📄 İngilizce Upper-Intermediate Belgesi</a></li>
+            <li><a href="documents/yapay zeka.pdf" target="_blank">📄 Yapay Zeka Belgesi</a></li>
+            <li>
+                <a href="documents/JAVA_ile_Programlamaya_Giriş_Sertifika.pdf" target="_blank">📄Java Programlama
+                    Belgesi</a>
+            </li>
+            <li><a href="documents/diksiyon.pdf" target="_blank">📄 Diksiyon Belgesi</a></li>
+            <li><a href="documents/Etkili_İletişim_Stratejileri_Sertifika (1).pdf" target="_blank">📄 Etkili İletişim
+                    Belgesi</a></li>
+            <li><a href="documents/hitabetegitimi.pdf" target="_blank">📄 Hitabet Belgesi</a></li>
+            <li><a href="documents/stres yonetimi.pdf" target="_blank">📄 Stres Yönetimi Belgesi</a></li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>📞İletişim</h2>
+        <p>E-mail : <a href="mailto:erenaldibas@gmail.com" target="_blank">erenaldibas@gmail.com</a></p>
+        <p>Instagram : <a href="https://www.instagram.com/erenaldibas/" target="_blank">@erenaldibas</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Cemal Eren Aldıbaş Tüm Hakları Saklıdır</p>
+    </footer>
+</body>
+
+</html>
